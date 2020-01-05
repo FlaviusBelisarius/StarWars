@@ -1,2 +1,2 @@
 # StarWars
-A automatic running game based on Dijkstra Algorithm
+An automatically running game based on Dijkstra Algorithm. 
