@@ -3,7 +3,7 @@
 An automatically running game based on Dijkstra Algorithm. 
 
 ### Author  
-Justinian Nie & Hanzhang Wu  
+Flavius Belisarius(Of course it is a fake name) & Hanzhang Wu  
 Completed on December 6, 2018
 
 ### Summary  
