@@ -3,8 +3,10 @@
 An automatically running game based on Dijkstra Algorithm. 
 
 ### Author  
-Flavius Belisarius(Of course it is a fake name) & Hanzhang Wu  
+UI & Other materials are provided by Professor C. Myers
+Flavius Belisarius(Of course it is a fake name) & H.Z. Wu
 Completed on December 6, 2018
+If you are one of the authors and you think I have an infringement please contact me and I will hide these contents.
 
 ### Summary  
 Our strategy basically contains three parts. First of all, we are trying to conquer as much neutral planets as we can at the beginning of the game. We send shuttles to conquer neutral planets with more edges, so that we can use those neutral planets to conquer more planets. Second, after all the neutral planets are conquered, we send forces on the battle front to attack enemy planets. We make sure that those enemy planets can be conquered. Third, we send population from rear to front to reinforce planets that are in the battle front. We generate the shortest path using Dijkstra’s algorithm.
