@@ -4,7 +4,7 @@ A composite algorithm worked on StarWars game.
 
 ## Author  
 UI & game materials are provided by Professor C. Myers  
-Algorithm Authors: me & H.Z. Wu 
+Algorithm Authors: J. Nie(me) & H.Z. Wu 
 Completed on December 6th, 2018  
 If you are one of the authors and you think I have an infringement please contact me and I will hide these contents. 
 
