@@ -10,12 +10,12 @@ If you are one of the authors and you think I have an infringement please contac
 
 ## Program Details
 ### How to run
-We wrote and test this game in IntelliJ IDEA with jdk 16, actually other lower/higher version jdk also works. Remember to cheange project seetings if you are using different jdk.   
+We wrote and test this game in IntelliJ IDEA with jdk 16, actually other lower/higher version jdk also works. Remember to change project settings if you are using different jdk.   
 Run main function in src/planetwars/publicapi/Driver.java to start a graphic game window.   
 Run main function in src/planetwars/publicapi/StrategyRanker.java to start a comparison between two different strategies(without graphic game window). 
 
 ### Algorithm and strategy
-Our strategy basically contains three parts. First of all, we are trying to conquer as much neutral planets as we can at the beginning of the game. We send shuttles to conquer neutral planets with more edges, so that we can use those neutral planets to conquer more planets. Second, after all the neutral planets are conquered, we send forces on the battle front to attack enemy planets. We make sure that those enemy planets can be conquered. Third, we send population from rear to front to reinforce planets that are in the battle front. We generate the shortest path using Dijkstra’s algorithm.  
+Our strategy basically contains three parts. First of all, the program will try to conquer as much neutral planets as it can at the beginning of the game. Shuttles will be sent to conquer neutral planets with more edges, so that we can use those neutral planets to conquer more planets. Second, after all the neutral planets are conquered, we send forces on the battle front to attack enemy planets. We make sure that those enemy planets can be conquered. Third, we send population from rear to front to reinforce planets that are in the battle front. The program generates the shortest path using Dijkstra’s algorithm.  
 We did not consider much of habitability. Since our strategy is a very offensive one, we are trying to conquer as many planets as possible without considering habitability. We make sure that planets we send to have many edges, and are relatively close to reach. Since they have many edges, we can use those edges to conquer more planets. It’s hard for us to write a strategy that favors high habitability at the expense of the speed to conquer planets.   
 Algorithm and strategy is implemented in src/planetwars/strategies/MyStrategy.java
 
